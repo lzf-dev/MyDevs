@@ -1,0 +1,8 @@
+#!meta
+
+{"kernelInfo":{"defaultKernelName":"csharp","items":[{"aliases":[],"languageName":"csharp","name":"csharp"},{"aliases":[],"languageName":"python","name":"pythonkernel"},{"aliases":[],"languageName":"R","name":"Rkernel"}]}}
+
+#!csharp
+
+#!connect jupyter --kernel-name pythonkernel --kernel-spec python3
+#!connect jupyter --kernel-name Rkernel --kernel-spec ir

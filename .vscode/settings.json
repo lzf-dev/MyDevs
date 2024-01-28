@@ -1,0 +1,25 @@
+{
+    "sqltools.connections": [
+        {
+            "mssqlOptions": {
+                "appName": "SQLTools",
+                "useUTC": true,
+                "encrypt": true
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 1433,
+            "driver": "MSSQL",
+            "name": "local",
+            "database": "master",
+            "username": "SA"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "sqlite_test",
+            "database": "${workspaceFolder:MyDevs}/pythonsqlite.db"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
